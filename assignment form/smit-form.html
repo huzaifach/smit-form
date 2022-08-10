@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRATION FORM</title>
+
+</head>
+
+<body>
+    <center>
+        <img width="38%" height="180px" src="saylani.png" alt="SAYLANI WELFARE IMAGE">
+    </center>
+    <h1 align="center">Saylani Online Academy</h1>
+    <form action="submit.html" method="get">
+        <table bgcolor="lightgrey" align="center" cellspacing="12px" cellpadding="8px">
+            <tr>
+                <td colspan="3">
+                    <h2 align="center">Student Registration Form</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">NAME </label>
+                </td>
+                <td>
+                    <input type="text" required name="name" placeholder="Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">FATHER NAME</label>
+                </td>
+                <td>
+                    <input type="text" required name="fname" placeholder="Father Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">PASSWORD</label>
+                </td>
+                <td>
+                    <input type="password" required name="password" placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">ADDRESS</label>
+                </td>
+                <td>
+                    <textarea name="address" required cols="30" rows="10" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>GENDER</label>
+                </td>
+                <td>
+                    <input type="radio" required name="gender" id="male" value="male">
+                    <label for="male">MALE</label>
+                    <input type="radio" required name="gender" id="female" value="female">
+                    <label for="female">FEMALE</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="language">LANGUAGE</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="language" value="urdu">
+                    <label for="language">URDU</label>
+                    <input type="checkbox" name="language" value="english">
+                    <label for="language">ENGLISH</label>
+                    <input type="checkbox" name="language" value="ARABIC">
+                    <label for="language">ARABIC</label>
+                    <input type="checkbox" name="language" value="chinese">
+                    <label for="language">CHINESE</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="DOB">DOB</label>
+                </td>
+                <td>
+                    <input required type="date" name="DOB">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">EMAIL</label>
+                </td>
+                <td>
+                    <input type="email" name="email" required placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="number">MOBILE NUMBER</label>
+                </td>
+                <td>
+                    <input type="number" required name="number" placeholder="Mobile Number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">CITY</label>
+                </td>
+                <td>
+                    <select name="city" required>
+                        <option selected disabled>SELECT A CITY</option>
+                        <option>LAHORE</option>
+                        <option>KARACHI</option>
+                        <option>SHAHDADPUR</option>
+                        <option>ISLAMABAD</option>
+                        <option>FAISALABAD</option>
+                        <option>DADU</option>
+                        <option>HALA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobbies">HOBBIES</label>
+                </td>
+                <td>
+                    <select name="hobbies" multiple required size="4">
+                        <option>Cricket</option>
+                        <option>Baseball</option>
+                        <option>Hockey</option>
+                        <option>Reading</option>
+                        <option>Exploring</option>
+                        <option>Writing</option>
+                        <option>Sleeping</option>
+                        <option>Exercise</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="picture">PICTURE UPLOAD</label>
+                </td>
+                <td>
+                    <input type="file" name="picture" required accept="image/*">
+                </td>
+                <td>
+                    <button>upload</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" value="Submit Form">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
